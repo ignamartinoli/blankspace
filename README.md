@@ -1,2 +1,3 @@
-# blankspace
-A Neovim plugin to visualize clearly whitespace
+# Blankspace
+
+**Blankspace** is a plugin aimed at visualizing whitespace in your code.
