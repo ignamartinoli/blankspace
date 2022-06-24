@@ -11,7 +11,7 @@ function M.setup(config_handler)
 	M.config = Config.make_user_config(config_handler)
 end
 
-function M.ToggleBlankspace()
+function M.Toggle()
 	Utils.loc.listchars = {
 		tab = '→ ',
 		space = '·',
