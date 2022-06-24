@@ -10,7 +10,7 @@ function M.setup(config_handler)
 end
 
 function M.ToggleBlankspace()
-	Utils.cmd([[:<C-U> setlocal listchars=tab:→\ ,space:·,trail:•,nbsp:␣,eol:¶ list! list?<CR>]])
+	Utils.cmd([[<C-U> setlocal listchars=tab:→\ ,space:·,trail:•,nbsp:␣,eol:¶ list! list?<CR>]])
 end
 
 return M
